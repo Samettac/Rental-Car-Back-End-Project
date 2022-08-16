@@ -25,7 +25,7 @@ namespace ConsoleUI
                 Id = 6,
                 BrandId = 2,
                 ColorId = 1,
-                DailyPrice = 70000000,
+                DailyPrice = 700,
                 ModelYear = 2020,
                 Description = "Ekonomik"
             });
