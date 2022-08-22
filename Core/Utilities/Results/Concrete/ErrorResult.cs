@@ -13,7 +13,7 @@ namespace Core.Utilities.Results.Concrete
 
         }
 
-        public ErrorResult() : base(true)
+        public ErrorResult() : base(false)
         {
 
         }
