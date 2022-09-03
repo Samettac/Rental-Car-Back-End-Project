@@ -21,10 +21,10 @@ namespace Core.Utilities.Interceptors
             {
                 invocation.Proceed();
             }
-            catch (Exception e)
+            catch (Exception exception)
             {
                 isSucces = false;
-                OnException(invocation, e);
+                OnException(invocation, exception);
                 throw;
             }
             finally
